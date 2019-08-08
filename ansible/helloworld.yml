@@ -1,6 +1,10 @@
 ---
 
+<<<<<<< HEAD
 - hosts: all
+=======
+- hosts: "{{ target | default('localhost') }}"
+>>>>>>> e7bb86f5b6a94a0a813b63f7d08a932050a90e0c
   become: yes
   roles:
     - helloworld
