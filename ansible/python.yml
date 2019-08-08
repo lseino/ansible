@@ -1,6 +1,0 @@
-- hosts: 172.31.21.171
-  become: yes
-  gather_facts: no
-  pre_tasks:
-  - name: 'install python'
-    raw: 'sudo yum install -y python3 sudo yum install pip3' 
